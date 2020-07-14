@@ -1,0 +1,14 @@
+/* Class Selectors */
+.pricing-header {
+    padding: 13rem 1rem;
+}
+
+.price-card {
+    padding: 2rem 1rem;
+}
+
+/* Id Selectors */
+#pricing {
+    padding: 1rem 7rem;
+    text-align: center;
+}
