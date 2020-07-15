@@ -1,14 +1,46 @@
+/* Tag Selectors */
+h1 {
+    color: white;
+}
+
+svg {
+    color: white;
+}
+
 /* Class Selectors */
+.container-fluid {
+    padding: 0;
+}
+
 .pricing-header {
     padding: 13rem 1rem;
+    background-color: rgb(41, 204, 188);
+    text-align: center;
+}
+
+.lead {
+    color: white;
+}
+
+.scooby-img {
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -3.5rem;
+}
+
+.card-row {
+    margin: 0 1rem;
 }
 
 .price-card {
     padding: 2rem 1rem;
 }
 
+.card-header {
+    /* background-color: lightgray; */
+}
+
 /* Id Selectors */
 #pricing {
-    padding: 1rem 7rem;
     text-align: center;
 }
