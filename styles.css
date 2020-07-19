@@ -13,9 +13,9 @@ svg {
 }
 
 .pricing-header {
+    background-color: #29ccbc;
     padding: 13rem 1rem;
-    background-color: rgb(41, 204, 188);
-    text-align: center;
+    text-align: center; 
 }
 
 .lead {
@@ -25,7 +25,7 @@ svg {
 .scooby-img {
     position: absolute;
     margin-left: 9rem;
-    margin-top: -3.5rem;
+    margin-top: -18rem;
 }
 
 .card-row {
@@ -36,11 +36,44 @@ svg {
     padding: 2rem 1rem;
 }
 
-.card-header {
-    /* background-color: lightgray; */
+.footer {
+    background-color: #29ccbc;
+    color: white;
+    padding: 5rem 1rem 1rem;
+    text-align: center;
 }
 
 /* Id Selectors */
 #pricing {
     text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 896px) {
+    .scooby-img {
+        position: static;
+        margin-top: -13rem;
+        margin-left: auto;
+        transform: scale(50%);
+    }
+
+    .pricing-header {
+        padding: 7rem 1rem 13rem;
+    }
+
+    .card-row {
+        position: absolute;
+        z-index: 1;
+        margin: -25.5rem 1rem;
+    }
+
+    .footer {
+        margin-top: 25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        margin-top: 49rem;
+    }
 }
