@@ -31,23 +31,52 @@
 </head>
 
 <body>
-    <section id="pricing">
-        <div class="container-fluid">
+    <div class="container-fluid">
 
-            <div class="pricing-header">
-                <h1 class="display-4">A Plan for Every Dog's Needs</h1>
-                <p class="lead">Simple and affordable price plans for you and your dog.</p>
-                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-down" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M11.354 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L8 12.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                    <path fill-rule="evenodd"
-                        d="M8 6a.5.5 0 0 1 .5.5V13a.5.5 0 0 1-1 0V6.5A.5.5 0 0 1 8 6zM2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
-                </svg>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <a class="navbar-brand" href="">tindog</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#social-media">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#call-to-action">download</a>
+                    </li>
+                </ul>
             </div>
-            <div class="image">
-                <img class="scooby-img" src="scooby-doo-dog.png" alt="scooby-doo-img">
-            </div>
+        </nav>
+
+        <!-- Heading -->
+        <div class="pricing-header">
+            <h1 class="display-4">A Plan for Every Dog's Needs</h1>
+            <p class="lead">Simple and affordable price plans for you and your dog.</p>
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-down" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M11.354 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L8 12.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                <path fill-rule="evenodd"
+                    d="M8 6a.5.5 0 0 1 .5.5V13a.5.5 0 0 1-1 0V6.5A.5.5 0 0 1 8 6zM2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- Price-Cards -->
+    <section id="pricing">
+
+        <div class="image">
+            <img class="scooby-img" src="scooby-doo-dog.png" alt="scooby-doo-img">
         </div>
 
         <div class="row card-row">
@@ -98,23 +127,34 @@
                 </div>
             </div>
         </div>
-
-        <div class="footer">
-            <footer>
-                <h3 class="footer-text">Find the True Dog Love of Your Life Today.</h3>
-                    <br>
-                    <button type="button" class="btn btn-outline-light download-btn"><i class="fab fa-apple"></i> Download</button>
-                    <button type="button" class="btn btn-outline-light download-btn"><i class="fab fa-google-play"></i> Download</button>
-                    <br>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <br>
-                    <br><p>© Copyright 2020</p>
-            </footer>
-        </div>
     </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer>
+
+            <section id="call-to-action">
+                <h3 class="footer-text">Find the True Dog Love of Your Life Today.</h3>
+                <br>
+                <button type="button" class="btn btn-outline-light download-btn"><i class="fab fa-apple"></i>
+                    Download</button>
+                <button type="button" class="btn btn-outline-light download-btn"><i class="fab fa-google-play"></i>
+                    Download</button>
+                <br>
+            </section>
+
+            <section id="social-media">
+                <i class="social-icon fab fa-twitter" aria-hidden="true"></i>
+                <i class="social-icon fab fa-facebook" aria-hidden="true"></i>
+                <i class="social-icon fab fa-instagram" aria-hidden="true"></i>
+                <i class="social-icon fab fa-envelope" aria-hidden="true"></i>
+                <br>
+            </section>
+            <br>
+            <p>© Copyright 2020</p>
+        </footer>
+    </div>
+
 </body>
 
 </html>
