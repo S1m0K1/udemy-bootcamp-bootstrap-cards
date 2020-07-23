@@ -3,8 +3,25 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: #29ccbc;
+}
+
+h3 {
+    color: #212529;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
 svg {
     color: white;
+}
+
+i {
+    padding: 1rem;
+    padding-top: 6rem;
 }
 
 /* Class Selectors */
@@ -36,11 +53,50 @@ svg {
     padding: 2rem 1rem;
 }
 
+.card {
+    border-style: none;
+    border: 1px solid lightgray;
+}
+
+.card-header {
+    background-color: lightgray;
+}
+
+.btn-block:hover {
+    color: white;
+}
+
+.btn-warning {
+    color: white;
+}
+
 .footer {
     background-color: #29ccbc;
     color: white;
     padding: 5rem 1rem 1rem;
     text-align: center;
+}
+
+.footer-text {
+  color: white;
+}
+
+.download-btn {
+    margin: 0.5rem;
+}
+
+.download-btn:hover {
+    color: #29ccbc;
+}
+
+.fa-apple {
+    padding: 0;
+    padding-right: 0.2rem;
+}
+
+.fa-google-play {
+    padding: 0;
+    padding-right: 0.2rem;
 }
 
 /* Id Selectors */
